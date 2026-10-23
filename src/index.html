@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MSR Knowledge Base</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>MSR Knowledge Base</h1>
+    <p class="subtitle">A reference for Mining Software Repositories researchers</p>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Knowledge base sections">
+    <button
+      class="tab"
+      role="tab"
+      id="tab-data-sources"
+      data-tab="data-sources"
+      aria-selected="true"
+      aria-controls="panel-data-sources"
+    >Data Sources</button>
+
+    <button
+      class="tab"
+      role="tab"
+      id="tab-collection-methods"
+      data-tab="collection-methods"
+      aria-selected="false"
+      aria-controls="panel-collection-methods"
+      tabindex="-1"
+    >Collection Methods</button>
+
+    <button
+      class="tab"
+      role="tab"
+      id="tab-analysis-methods"
+      data-tab="analysis-methods"
+      aria-selected="false"
+      aria-controls="panel-analysis-methods"
+      tabindex="-1"
+    >Analysis Methods</button>
+
+    <button
+      class="tab"
+      role="tab"
+      id="tab-publication-venues"
+      data-tab="publication-venues"
+      aria-selected="false"
+      aria-controls="panel-publication-venues"
+      tabindex="-1"
+    >Publication Venues</button>
+  </nav>
+
+  <main class="content">
+    <!-- Data Sources (implemented) -->
+    <section
+      class="panel"
+      id="panel-data-sources"
+      role="tabpanel"
+      aria-labelledby="tab-data-sources"
+      data-panel="data-sources"
+    >
+      <h2>Data Sources</h2>
+      <p class="section-intro">
+        Where MSR researchers obtain data. Each source lists the kind of data
+        it provides and a brief description.
+      </p>
+
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th scope="col">Source</th>
+            <th scope="col">Data Provided</th>
+            <th scope="col">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>GitHub</strong></td>
+            <td>Repositories, commits, pull requests, issues, stars</td>
+            <td>Large-scale hosting platform for open-source software; the richest single source of development activity.</td>
+          </tr>
+          <tr>
+            <td><strong>Stack Overflow</strong></td>
+            <td>Questions, answers, tags, user reputation</td>
+            <td>Q&amp;A site for programmers; useful for studying knowledge sharing, problem types, and community dynamics.</td>
+          </tr>
+          <tr>
+            <td><strong>JIRA</strong></td>
+            <td>Issue tracking, sprint data, bug reports</td>
+            <td>Project management and issue-tracking tool used in industry; supports study of defect and workflow data.</td>
+          </tr>
+          <tr>
+            <td><strong>App Stores</strong></td>
+            <td>Google Play and Apple App Store reviews, ratings, downloads</td>
+            <td>Mobile app marketplaces; valuable for studying user feedback, sentiment, and release impact.</td>
+          </tr>
+          <tr>
+            <td><strong>Travis CI / Jenkins</strong></td>
+            <td>Build logs, test results, deployment data</td>
+            <td>Continuous integration services; provide evidence of build success, failures, and testing practice.</td>
+          </tr>
+          <tr>
+            <td><strong>Mailing Lists</strong></td>
+            <td>Developer discussions, archives</td>
+            <td>Long-running project communication archives; useful for studying design decisions and governance.</td>
+          </tr>
+          <tr>
+            <td><strong>npm Registry</strong></td>
+            <td>Package dependencies, downloads, versions</td>
+            <td>JavaScript package registry; supports study of dependency networks, ecosystem health, and versioning.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Collection Methods (future work) -->
+    <section
+      class="panel"
+      id="panel-collection-methods"
+      role="tabpanel"
+      aria-labelledby="tab-collection-methods"
+      data-panel="collection-methods"
+      hidden
+    >
+      <h2>Collection Methods</h2>
+      <p class="placeholder">
+        This section is planned for a future milestone.
+      </p>
+    </section>
+
+    <!-- Analysis Methods (future work) -->
+    <section
+      class="panel"
+      id="panel-analysis-methods"
+      role="tabpanel"
+      aria-labelledby="tab-analysis-methods"
+      data-panel="analysis-methods"
+      hidden
+    >
+      <h2>Analysis Methods</h2>
+      <p class="placeholder">
+        This section is planned for a future milestone.
+      </p>
+    </section>
+
+    <!-- Publication Venues (future work) -->
+    <section
+      class="panel"
+      id="panel-publication-venues"
+      role="tabpanel"
+      aria-labelledby="tab-publication-venues"
+      data-panel="publication-venues"
+      hidden
+    >
+      <h2>Publication Venues</h2>
+      <p class="placeholder">
+        This section is planned for a future milestone.
+      </p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
