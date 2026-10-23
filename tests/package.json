@@ -1,0 +1,12 @@
+{
+  "name": "msr-knowledge-base",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Knowledge base and smoke tests.",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
