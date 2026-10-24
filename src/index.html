@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MSR Knowledge Base</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>MSR Knowledge Base</h1>
+    <p>A reference guide for Mining Software Repositories researchers</p>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Knowledge base sections">
+    <button class="tab active" role="tab" id="tab-data-sources" data-tab="data-sources" aria-selected="true" aria-controls="data-sources">Data Sources</button>
+    <button class="tab" role="tab" id="tab-collection-methods" data-tab="collection-methods" aria-selected="false" aria-controls="collection-methods">Collection Methods</button>
+    <button class="tab" role="tab" id="tab-analysis-methods" data-tab="analysis-methods" aria-selected="false" aria-controls="analysis-methods">Analysis Methods</button>
+    <button class="tab" role="tab" id="tab-publication-venues" data-tab="publication-venues" aria-selected="false" aria-controls="publication-venues">Publication Venues</button>
+  </nav>
+
+  <main>
+    <section id="data-sources" class="tab-content active" role="tabpanel" aria-labelledby="tab-data-sources">
+      <h2>Data Sources</h2>
+      <p>Where we get data from.</p>
+      <table>
+        <thead>
+          <tr><th>Source</th><th>Data Type</th><th>Description</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>GitHub</td>
+            <td>Repositories, commits, pull requests, issues, stars</td>
+            <td>The largest code-hosting platform, offering rich history of open-source development activity.</td>
+          </tr>
+          <tr>
+            <td>Stack Overflow</td>
+            <td>Questions, answers, tags, user reputation</td>
+            <td>A Q&amp;A site where developers ask and answer programming questions, useful for studying developer needs and knowledge sharing.</td>
+          </tr>
+          <tr>
+            <td>JIRA</td>
+            <td>Issue tracking, sprint data, bug reports</td>
+            <td>A project-management tool whose public instances expose bug reports and sprint data for many projects.</td>
+          </tr>
+          <tr>
+            <td>App Stores</td>
+            <td>Google Play and Apple App Store reviews, ratings, downloads</td>
+            <td>Marketplaces where users review mobile apps, giving direct feedback on software quality and features.</td>
+          </tr>
+          <tr>
+            <td>Travis CI / Jenkins</td>
+            <td>Build logs, test results, deployment data</td>
+            <td>Continuous integration services that record how software is built, tested, and deployed.</td>
+          </tr>
+          <tr>
+            <td>Mailing Lists</td>
+            <td>Developer discussions, archives</td>
+            <td>Archived email conversations in which developers discuss design, patches, and project decisions.</td>
+          </tr>
+          <tr>
+            <td>npm Registry</td>
+            <td>Package dependencies, downloads, versions</td>
+            <td>The package registry for JavaScript, used to study dependency networks and release practices.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="collection-methods" class="tab-content" role="tabpanel" aria-labelledby="tab-collection-methods">
+      <h2>Collection Methods</h2>
+      <p class="placeholder">Content coming in Milestone 3.</p>
+    </section>
+
+    <section id="analysis-methods" class="tab-content" role="tabpanel" aria-labelledby="tab-analysis-methods">
+      <h2>Analysis Methods</h2>
+      <p class="placeholder">Content coming in Milestone 4.</p>
+    </section>
+
+    <section id="publication-venues" class="tab-content" role="tabpanel" aria-labelledby="tab-publication-venues">
+      <h2>Publication Venues</h2>
+      <p class="placeholder">Content coming in Milestone 5.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

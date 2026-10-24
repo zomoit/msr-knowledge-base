@@ -3,36 +3,25 @@
 ## 1. User Stories and Acceptance Criteria
 
 * **US-1:** As a researcher, I want to switch between the four content categories using tabs or buttons at the top of the page, so that I can quickly access the information I need without scrolling through irrelevant content.
-
   * The page shows four tabs: Data Sources, Collection Methods, Analysis Methods, and Publication Venues.
   * Clicking a tab displays that section and hides the other three.
   * The active tab is visually distinguished from inactive tabs.
   * Data Sources is active when the page first loads.
-
 * **US-2:** As a PhD student, I want to see a list of available data sources with their name, data type, and a brief description, so that I can choose which data to collect for my research.
-
   * The Data Sources section lists exactly 7 sources: GitHub, Stack Overflow, JIRA, App Stores, Travis CI / Jenkins, Mailing Lists, and npm Registry.
   * Each source shows a name, the kind of data it provides, and a brief description, with none left empty.
-
 * **US-3:** As a researcher, I want to see collection methods with their purpose and pros/cons, so that I can select the most appropriate method for gathering my data.
-
   * The section lists exactly 6 methods: REST APIs, GraphQL, Web Scraping (Selenium), Web Scraping (BeautifulSoup), Database Dumps, and Manual Download.
   * Each method shows its name, what it is used for, and its pros and cons.
-
 * **US-4:** As a researcher, I want to see analysis methods categorised by type with common use cases, so that I can determine which analysis approach fits my research questions.
-
   * The section lists exactly 8 methods: Statistical, Regression, Thematic, Grounded Theory, Machine Learning, Time Series, Network Analysis, and Visualization.
   * Each method shows its name, type of analysis, and common use cases.
   * Methods are labelled or grouped by type (e.g., quantitative or qualitative).
-
 * **US-5:** As a researcher, I want to compare publication venues by type, focus area, and MSR relevance, so that I can pick the most appropriate venue for my research paper.
-
   * The section lists exactly 9 venues: ICSE, FSE, ASE, MSR, EASE, and SANER (conferences), and EMSE, TSE, and TOSEM (journals).
   * Each venue shows its full name, abbreviation, type, focus area, and MSR relevance (High or Medium).
   * Conferences and journals are clearly separated or labelled.
-
 * **US-6:** As a researcher, I want a clean, professional-looking page with simple styling, so that content is easy to read and the site feels credible without distracting animations.
-
   * All four sections use a consistent format (table, list, or cards).
   * The page uses readable fonts, adequate spacing, and sufficient colour contrast.
   * The page contains no animations that distract from content.
