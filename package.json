@@ -1,12 +1,17 @@
 {
   "name": "msr-knowledge-base",
   "version": "1.0.0",
+  "description": "Web-based knowledge base for Mining Software Repositories (MSR) research",
   "private": true,
-  "description": "Knowledge base for MSR documentation and tests.",
   "scripts": {
-    "test": "node --test"
+    "test": "jest"
   },
-  "engines": {
-    "node": ">=18"
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": ["**/tests/**/*.test.js"]
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jsdom": "^24.1.0"
   }
 }
